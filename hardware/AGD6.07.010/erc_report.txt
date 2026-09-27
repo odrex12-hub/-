@@ -1,43 +1,13 @@
-ERC report (2026-09-27T14:21:24, Encoding UTF8)
+ERC report (2026-09-27T14:55:52, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[isolated_pin_label]: Label connected to only one pin
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
     ; warning
-    @(187.96 mm, 104.14 mm): Label 'AI_TX'
-[isolated_pin_label]: Label connected to only one pin
+    @(124.46 mm, 190.50 mm): Symbol Q803 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
     ; warning
-    @(187.96 mm, 109.22 mm): Label 'AI_RX'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(187.96 mm, 114.30 mm): Label 'GNSS_PPS'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(292.10 mm, 119.38 mm): Label 'I2C_SCL'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(292.10 mm, 124.46 mm): Label 'I2C_SDA'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(292.10 mm, 129.54 mm): Label 'TEMP_ALERT_N'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(273.05 mm, 137.16 mm): Hierarchical Label 'AI_RX'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(273.05 mm, 147.32 mm): Hierarchical Label 'GNSS_PPS'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(285.75 mm, 127.00 mm): Hierarchical Label 'AI_TX'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(228.60 mm, 157.48 mm): Hierarchical Label 'I2C_SDA'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(228.60 mm, 160.02 mm): Hierarchical Label 'I2C_SCL'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(300.99 mm, 165.10 mm): Hierarchical Label 'TEMP_ALERT_N'
+    @(340.36 mm, 147.32 mm): Symbol Q801 [AO3400A]
 
 ***** Sheet /POWER_INPUT_14S/
 
@@ -54,15 +24,12 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /FLIGHT_CONTROL_IO/
 
 ***** Sheet /WATCHDOG_DIAGNOSTICS/
-[pin_not_driven]: Input pin not driven by any Output pins
-    ; error
-    @(231.14 mm, 160.02 mm): Symbol U3 Pin 1 [SCL, Input, Line]
 
 ***** Sheet /RC_AND_TELEMETRY/
 
 ***** Sheet /CAMERAS/
 
- ** ERC messages: 13  Errors 1  Warnings 12
+ ** ERC messages: 2  Errors 0  Warnings 2
 
  ** Ignored checks:
     - Global label only appears once in the schematic

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AGD6")(type "KiCad")(uri "${KIPRJMOD}/AGD6.kicad_sym")(options "")(descr "Project symbols AGD6.07.010"))
+)
