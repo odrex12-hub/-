@@ -1,0 +1,80 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "886a661b-d238-49bf-a323-3f7abf75ea00")
+	(paper "A4")
+	(lib_symbols)
+	(text "Grounding and cable shield termination defined at one point"
+		(exclude_from_sim no)
+		(at 20 71 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "0175aef5-d21c-48b4-8e67-5bc3741e26b9")
+	)
+	(text "Two protected CAN-FD branches with selectable termination"
+		(exclude_from_sim no)
+		(at 20 35 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "128b4eb5-7902-4895-b7ea-f49d060fa476")
+	)
+	(text "DATA_REQUIRED: sensor list, cable lengths and bus bit rate"
+		(exclude_from_sim no)
+		(at 20 83 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "269ea7f5-e681-4c40-ab5c-d7f6aa468317")
+	)
+	(text "Pressure, flow, tank level, temperature and obstacle interfaces"
+		(exclude_from_sim no)
+		(at 20 47 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e1936ca-9493-4df8-a215-3d6b99e12808")
+	)
+	(text "Per-branch power switching and fault telemetry"
+		(exclude_from_sim no)
+		(at 20 59 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "a93ae8e0-87d4-4ed8-8a50-6b5453d2b2ba")
+	)
+	(text "CAN_AND_SENSORS"
+		(exclude_from_sim no)
+		(at 20 20 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad80a1f7-0775-4ccc-b152-b33923fee0f0")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,80 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b5a23f83-33cf-460a-82ac-dd72cb9f250f")
+	(paper "A4")
+	(lib_symbols)
+	(text "BMS IS EXTERNAL AND IS NOT PART OF THIS PCB"
+		(exclude_from_sim no)
+		(at 20 71 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "191b6850-3193-4d47-b946-77ba8c5ae287")
+	)
+	(text "TVS + reverse polarity + inrush limiting + input fuse"
+		(exclude_from_sim no)
+		(at 20 47 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "22cd74b5-b39f-43da-95b4-2698fbab69e5")
+	)
+	(text "POWER_INPUT_14S"
+		(exclude_from_sim no)
+		(at 20 20 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bda7fbb-e735-43cb-9729-440c2b57a1be")
+	)
+	(text "DATA_REQUIRED: max auxiliary current, connector, surge profile"
+		(exclude_from_sim no)
+		(at 20 83 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "7216d415-7e38-4eae-9a88-034a983606c3")
+	)
+	(text "Voltage/current monitor to autopilot and AI logger"
+		(exclude_from_sim no)
+		(at 20 59 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b33b4f46-2fba-4327-b7f7-6e84a806d3e1")
+	)
+	(text "J1: 14S auxiliary input from separate protected PDB"
+		(exclude_from_sim no)
+		(at 20 35 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b508f309-3387-4cb5-8b88-0beeb577603a")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

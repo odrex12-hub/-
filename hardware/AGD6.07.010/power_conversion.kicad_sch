@@ -1,0 +1,80 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8aeaa323-9373-46a0-851b-f19dd3c27cda")
+	(paper "A4")
+	(lib_symbols)
+	(text "Isolated/non-isolated pre-regulator: architecture selection pending"
+		(exclude_from_sim no)
+		(at 20 35 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "8001caaa-73bf-455f-908d-7396adfb70cc")
+	)
+	(text "AI rail: dedicated protected output, swappable compute module"
+		(exclude_from_sim no)
+		(at 20 71 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e0c5078-25cf-4e55-acd3-7e4ddd5e25ad")
+	)
+	(text "5 V rail: autopilot peripherals and interfaces"
+		(exclude_from_sim no)
+		(at 20 59 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "adbbcd17-ce6a-4a2c-86fb-e288546721d6")
+	)
+	(text "12 V rail: cameras, radio and auxiliary payload"
+		(exclude_from_sim no)
+		(at 20 47 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1faed01-c59e-4977-a988-83c9e73e92f9")
+	)
+	(text "DATA_REQUIRED: rail currents, ripple, hold-up and thermal limits"
+		(exclude_from_sim no)
+		(at 20 83 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd9c06e9-9c54-4602-92ef-e48c9423121c")
+	)
+	(text "POWER_CONVERSION"
+		(exclude_from_sim no)
+		(at 20 20 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca6e9356-5acb-42f9-882b-91b1ea0e07a3")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

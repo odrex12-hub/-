@@ -99,6 +99,10 @@ RESET от watchdog, сигнал включения. Отказ ИИ не до�
 
 ## 6. Состояние проекта KiCad (`kicad/`)
 
+> **Заменён проектом пользователя `hardware/AGD6.07.010/`** (8 листов + LOAD_SWITCHES_12V и ETHERNET).
+> Нарисованная здесь схема интерфейса ИИ перенесена туда в листы AI_COMPUTE_INTERFACE и
+> WATCHDOG_DIAGNOSTICS. Дальнейшая работа — только в `hardware/AGD6.07.010/`.
+
 Проект создан и проверен в KiCad 10.0.6 (`kicad-cli`), PDF схемы — `kicad/avionics_board.pdf`.
 
 | Лист | Состояние |

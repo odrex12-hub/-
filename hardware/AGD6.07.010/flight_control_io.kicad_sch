@@ -1,0 +1,80 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2f3ee0e6-5013-4bec-9dae-3e5cd4ea789b")
+	(paper "A4")
+	(lib_symbols)
+	(text "RC input and emergency stop path bypass AI software"
+		(exclude_from_sim no)
+		(at 20 59 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "06cd4545-c79e-40aa-b6d9-935c743f9dde")
+	)
+	(text "Dual CAN, UART telemetry, I2C/SPI service, GPIO and safety input"
+		(exclude_from_sim no)
+		(at 20 47 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "56df2571-8d6c-41a3-998b-bf861a5ee488")
+	)
+	(text "Autopilot remains independent of companion AI computer"
+		(exclude_from_sim no)
+		(at 20 35 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d8cde62-7851-4b50-91a6-a208a3602783")
+	)
+	(text "FLIGHT_CONTROL_IO"
+		(exclude_from_sim no)
+		(at 20 20 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a36514a0-e367-451a-b2cf-2fdcd1a0dd5d")
+	)
+	(text "DATA_REQUIRED: exact Pixhawk model and connector pinout"
+		(exclude_from_sim no)
+		(at 20 83 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9145d7c-65d3-4738-a5c5-6ccc30edc90c")
+	)
+	(text "ESD protection and keyed locking connectors"
+		(exclude_from_sim no)
+		(at 20 71 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "f84bcf6c-e146-4a69-a1eb-1821077c26a4")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

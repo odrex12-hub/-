@@ -1,0 +1,80 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "39654e14-e4e1-47fc-9802-44622f5daf28")
+	(paper "A4")
+	(lib_symbols)
+	(text "Protected power switching and synchronization trigger"
+		(exclude_from_sim no)
+		(at 20 59 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "75ee14c2-ada5-4324-9eb7-5316b53a97bb")
+	)
+	(text "CAMERAS"
+		(exclude_from_sim no)
+		(at 20 20 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "91ec512a-8e09-4b56-9862-4aba306e9b2f")
+	)
+	(text "High-speed links routed away from switching power stages"
+		(exclude_from_sim no)
+		(at 20 71 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4b94478-0a31-406c-b492-0c703c308e3e")
+	)
+	(text "Front navigation camera and downward observation camera"
+		(exclude_from_sim no)
+		(at 20 35 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf02f92c-18ea-4393-ba3b-4740c5e9f1ab")
+	)
+	(text "Optional depth/obstacle camera interface"
+		(exclude_from_sim no)
+		(at 20 47 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2652432-0e7d-4637-a9cb-b833346fac92")
+	)
+	(text "DATA_REQUIRED: camera models, interface and cable type"
+		(exclude_from_sim no)
+		(at 20 83 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "dae01095-b212-4d11-9e53-9e82d7ff7cbd")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

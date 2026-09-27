@@ -1,0 +1,80 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ecf10236-db51-4f96-8992-e8382d05f4ab")
+	(paper "A4")
+	(lib_symbols)
+	(text "DATA_REQUIRED: radio region, frequencies and connector selection"
+		(exclude_from_sim no)
+		(at 20 83 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d0eaa33-a51b-4c8f-9378-30037e881202")
+	)
+	(text "Primary RC receiver input with independent failsafe path"
+		(exclude_from_sim no)
+		(at 20 35 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "65e8b480-62fb-4250-98f4-527efb823c31")
+	)
+	(text "GNSS/compass interfaces kept away from DC/DC magnetic fields"
+		(exclude_from_sim no)
+		(at 20 59 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "69fc7496-de8a-4ba7-b74e-56f533661f30")
+	)
+	(text "Telemetry radio and optional LTE/Wi-Fi service modem"
+		(exclude_from_sim no)
+		(at 20 47 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "815b6e43-b06b-42cf-b205-aa3c7e257fcf")
+	)
+	(text "RC_AND_TELEMETRY"
+		(exclude_from_sim no)
+		(at 20 20 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fa789f6-67af-45f3-b686-f48338401547")
+	)
+	(text "External antenna connectors with ESD protection"
+		(exclude_from_sim no)
+		(at 20 71 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "f720a2b6-4ba3-4224-b79e-ca64ecfdcd01")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
