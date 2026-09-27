@@ -1,0 +1,6 @@
+(version 1)
+# Pads of one footprint keep the manufacturer's pitch (MSOP/TSSOP 0.5 mm -> 0.15 mm gap),
+# even when a pin belongs to the HV_14S class (0.3 mm for tracks, vias and zones).
+(rule "same_footprint_pads"
+  (constraint clearance (min 0.15mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Parent == B.Parent"))
