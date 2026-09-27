@@ -1,0 +1,13 @@
+from,to,signal,voltage,wire,length_m,i_cont_a,i_peak_a,drop_cont_pct,loss_peak_w,fuse_a,connector,status
+battery,"PDB (main, +/−)",power,14S (49–58.8 V),6 AWG silicone (13.30 mm²),0.3,74.0,175.0,0.14,27.6,250.0,,PASS
+PDB,"arm ESC (×6, along the arm)",power,14S (49–58.8 V),10 AWG silicone (5.26 mm²),0.9,32.8,81.0,0.46,44.7,125.0,,PASS
+PDB,pump (14S),power,14S (49–58.8 V),22 AWG silicone (0.33 mm²),0.4,1.2,2.0,0.12,0.2,3.0,,PASS
+PDB,DC/DC 12 V + 5 V (avionics),power,14S (49–58.8 V),22 AWG silicone (0.33 mm²),0.25,0.7,1.4,0.04,0.1,2.0,,PASS
+flight controller,"6 × ESC (DroneCAN bus, D-11)","DroneCAN: throttle + telemetry (RPM, current, temperature)",5 V CAN,"CAN twisted pair, daisy chain along the arms",,,,,,,JST-GH,ASSUMPTION — pinout per datasheet
+flight controller,pump ESC,PWM (sprayer),3.3–5 V,26 AWG,,,,,,,JST-GH,ASSUMPTION — pinout per datasheet
+flight controller,RTK GNSS (mast),CAN / UART,5 V,CAN cable,,,,,,,JST-GH,ASSUMPTION — pinout per datasheet
+flight controller,radar Ainstein US-D1 (ulanding_radar),UART,5 V supply,26 AWG,,,,,,,JST-GH,ASSUMPTION — pinout per datasheet
+flight controller,SIYI air unit,UART (MAVLink) + SBUS,12 V supply,26 AWG,,,,,,,JST-GH,ASSUMPTION — pinout per datasheet
+flight controller,remote ID,UART / CAN,5 V,26 AWG,,,,,,,JST-GH,ASSUMPTION — pinout per datasheet
+flight controller,flow meter / level,pulse / analog,5 V,26 AWG,,,,,,,JST-GH,ASSUMPTION — pinout per datasheet
+power module (dual),flight controller,V/I sense + 5 V,5 V,power module cable,,,,,,,Molex CLIK-Mate,ASSUMPTION — pinout per datasheet
