@@ -1,6 +1,13 @@
 (version 1)
-# Pads of one footprint keep the manufacturer's pitch (MSOP/TSSOP 0.5 mm -> 0.15 mm gap),
-# even when a pin belongs to the HV_14S class (0.3 mm for tracks, vias and zones).
+# Later rules take precedence.
+
+# 14S pads of fine-pitch ICs (LM5069, INA228): 0.2 mm to other copper. IPC-2221B B4 (external, coated) needs 0.13 mm
+# at 51-100 V; conformal coating is mandatory (ТЗ п. 6). Tracks, vias and pours of HV_14S keep 0.3 mm (net class).
+(rule "HV_14S_pads"
+  (constraint clearance (min 0.2mm))
+  (condition "A.NetClass == 'HV_14S' && A.Type == 'Pad'"))
+
+# Pads of one footprint keep the manufacturer's pitch (MSOP/TSSOP 0.5 mm -> 0.15 mm gap).
 (rule "same_footprint_pads"
   (constraint clearance (min 0.15mm))
   (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Parent == B.Parent"))
