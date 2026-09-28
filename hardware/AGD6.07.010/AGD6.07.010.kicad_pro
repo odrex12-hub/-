@@ -679,10 +679,6 @@
       },
       {
         "netclass": "PWR_12V",
-        "pattern": "*/V12_*"
-      },
-      {
-        "netclass": "PWR_12V",
         "pattern": "*/FAN_N"
       },
       {
@@ -716,6 +712,34 @@
       {
         "netclass": "USB_90R",
         "pattern": "/AI_COMPUTE_INTERFACE/USB_D*"
+      },
+      {
+        "netclass": "PWR_12V",
+        "pattern": "*/V12_RAW"
+      },
+      {
+        "netclass": "PWR_12V",
+        "pattern": "*/V12_SIYI"
+      },
+      {
+        "netclass": "PWR_12V",
+        "pattern": "*/V12_OBST"
+      },
+      {
+        "netclass": "PWR_12V",
+        "pattern": "*/V12_CAMF"
+      },
+      {
+        "netclass": "PWR_12V",
+        "pattern": "*/V12_CAMD"
+      },
+      {
+        "netclass": "PWR_12V",
+        "pattern": "*/V12_FAN"
+      },
+      {
+        "netclass": "PWR_12V",
+        "pattern": "*/V12_HEAT"
       }
     ]
   },
