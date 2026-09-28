@@ -1,13 +1,7 @@
-ERC report (2026-09-27T16:44:37, Encoding UTF8)
-Report includes: Errors, Warnings, Exclusions
+ERC report (2026-09-28T00:58:18, Encoding UTF8)
+Report includes: Errors
 
 ***** Sheet /
-[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
-    ; warning
-    @(124.46 mm, 190.50 mm): Symbol Q803 [AO3400A]
-[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
-    ; warning
-    @(340.36 mm, 147.32 mm): Symbol Q801 [AO3400A]
 
 ***** Sheet /POWER_INPUT_14S/
 
@@ -29,7 +23,7 @@ Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /CAMERAS/
 
- ** ERC messages: 2  Errors 0  Warnings 2
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - Global label only appears once in the schematic
