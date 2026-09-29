@@ -1760,6 +1760,17 @@
 			(uuid "2c5dc581-7cc6-45d4-85ca-a4eea1f81622")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/AGD6.3dshapes/DCDC_2x1in_TEP75_AGD6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -3471,7 +3482,7 @@
 			(uuid "06b3b7b7-5f05-4937-8fb3-ef53544a734c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/AMASS_XT30PW-M_Horizontal_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6022,7 +6033,7 @@
 			(uuid "fe7e0000-8372-4bc2-bf1c-2657a3cfc437")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Fuse_Littelfuse-NANO2-451_453_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6474,7 +6485,7 @@
 			(uuid "36c86756-09d5-4533-9641-1105c8f42318")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-F_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/AMASS_XT30PW-F_Horizontal_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7649,7 +7660,7 @@
 			(uuid "be29a075-f0fe-48f6-bfb3-dadd258a2ff5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Fuse_1812_4532Metric_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9180,7 +9191,7 @@
 			(uuid "75302326-6b34-4bfa-a4c9-3278b6c6d943")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12315,7 +12326,7 @@
 			(uuid "bffec9cb-cc0b-4f18-a074-ad61ed01a647")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP1245A.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/L_Bourns_SRP1245A_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15093,7 +15104,7 @@
 			(uuid "8deadb24-3d17-4f72-8f36-0a135ca18565")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonMode_Wurth_WE-CNSW-1206.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/L_CommonMode_Wurth_WE-CNSW-1206_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19152,7 +19163,7 @@
 			(uuid "6294e8bf-958b-454d-9b16-fb19b604f9c5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-F_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/AMASS_XT30PW-F_Horizontal_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19861,7 +19872,7 @@
 			(uuid "0d695bd2-5061-4fa5-83b6-fb3e20af868e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Infineon_PG-DSO-8-43.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Infineon_PG-DSO-8-43_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22394,7 +22405,7 @@
 			(uuid "ecddccba-f15c-4623-b40a-afd9b2e1e7ec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Infineon_PG-DSO-8-43.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Infineon_PG-DSO-8-43_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24987,7 +24998,7 @@
 			(uuid "cb9fefd2-cd57-4a1e-89e9-ca1021a55871")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Infineon_PG-DSO-8-43.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Infineon_PG-DSO-8-43_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26424,7 +26435,7 @@
 			(uuid "4788b992-bfad-4fd6-b186-fd8fd1b815d0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonMode_Wurth_WE-CNSW-1206.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/L_CommonMode_Wurth_WE-CNSW-1206_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29426,7 +29437,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Sensor_Humidity.3dshapes/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33013,6 +33024,17 @@
 			(uuid "bd328b14-961a-4bf5-a074-fcd83da2a433")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/AGD6.3dshapes/DCDC_2x1in_TEP75_AGD6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal"
 		(layer "F.Cu")
@@ -36262,7 +36284,7 @@
 			(uuid "4e2d83aa-6cd9-4d29-8e4e-cc73286edb6e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Fuse_Littelfuse-NANO2-451_453_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40382,7 +40404,7 @@
 			(uuid "71c89c8c-a130-4f02-af83-40a99a48bcde")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Fuse_1812_4532Metric_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42839,7 +42861,7 @@
 			(uuid "b5470d3b-bf23-42c2-b877-0fb6ed7e39b6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Fuse_1812_4532Metric_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -60681,7 +60703,7 @@
 			(uuid "9feefa76-d708-41ff-875a-213b56128681")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Fuse_1812_4532Metric_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -62927,7 +62949,7 @@
 			(uuid "f516a3ca-d7fb-46a7-9dff-a217f2c870c1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Fuse_1812_4532Metric_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -64700,7 +64722,7 @@
 			(uuid "cff95810-e3d7-47b5-90a3-ede445616178")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
+		(model "${KIPRJMOD}/AGD6.3dshapes/Fuse_1812_4532Metric_AGD6.step"
 			(offset
 				(xyz 0 0 0)
 			)
