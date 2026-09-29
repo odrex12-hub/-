@@ -11,3 +11,9 @@
 (rule "same_footprint_pads"
   (constraint clearance (min 0.15mm))
   (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Parent == B.Parent"))
+
+# Sense/supply taps of fine-pitch ICs (LM5069 SENSE/VIN/OUT, INA228 VBUS): thin 14S tracks carry microamps.
+# 0.2 mm under conformal coating (IPC-2221B B4, 51-100 V: 0.13 mm). Power-carrying 14S tracks stay >= 0.5 mm wide, 0.3 mm clearance.
+(rule "HV_14S_sense_tracks"
+  (constraint clearance (min 0.2mm))
+  (condition "A.NetClass == 'HV_14S' && A.Type == 'Track' && A.Width < 0.5mm"))
