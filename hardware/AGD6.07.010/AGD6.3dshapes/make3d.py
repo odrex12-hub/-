@@ -45,8 +45,7 @@ def xt30(name, pads, pegs, fab):
     parts += [(pin(x, y, 1.0, -2.5, 0.5), YEL) for x, y in pegs]
     write(name, parts)
 
-# DC/DC 2" x 1" module (TRACO TEP 75WI class): 50.8 x 25.4 x 10.2 mm metal case on insulating base,
-# pins d1.0 on 40.64 x 15.24 grid, marking on the lid (dimensions/pinout CHECK_DATASHEET)
+# text engraving helper (module markings)
 from OCP.StdPrs import StdPrs_BRepFont, StdPrs_BRepTextBuilder
 from OCP.NCollection import NCollection_Utf8String
 from OCP.gp import gp_Ax3, gp_Vec
@@ -67,17 +66,18 @@ def main():
     xt30("AMASS_XT30PW-M_Horizontal_AGD6.step", (0, -5), [(-8, -10), (3, -10)], (-9.65, 4.65, -13.6, 2.25))
     xt30("AMASS_XT30PW-F_Horizontal_AGD6.step", (0, 5), [(-3, -5), (8, -5)], (-4.65, 9.65, -14.55, 2.25))
 
-    METAL, WHITE = (0.78, 0.79, 0.81), (0.95, 0.95, 0.95)
-    TOP = 10.7
-    parts = [(box(-25.1, 25.1, -12.4, 12.4, 0.5, 1.5), BLK),                 # insulating base / standoffs
-             (box(-25.4, 25.4, -12.7, 12.7, 1.5, TOP), METAL)]                # metal case
-    parts += [(pin(x, y, 1.0, -3.5, 1.5), BRASS) for x in (-20.32, 20.32) for y in (-7.62, 0, 7.62)]
-    parts += [(text("TRACO POWER", 3.2, 0, -6.5, TOP), BLK),
-              (text("TEP 75-4812WI", 3.6, 0, -1.0, TOP), BLK),
-              (text("IN 18-75 VDC   OUT 12 VDC / 6.25 A", 1.7, 0, 4.2, TOP), BLK),
-              (text("DC/DC CONVERTER  75 W  ISOLATED", 1.5, 0, 7.6, TOP), BLK),
-              (pin(-22.6, -9.9, 1.6, TOP, TOP + 0.06), BLK)]                   # pin 1 mark
-    write("DCDC_2x1in_TEP75_AGD6.step", parts)
+    WHITE = (0.95, 0.95, 0.95)
+
+    # TRACO THL 40WI: 1" x 1" x 0.4" case (KiCad footprint F.Fab outline), pins d1.0 (CHECK_DATASHEET height)
+    TOPT = 10.7
+    parts = [(box(-10.95, 15.95, -3.72, 23.65, 0.5, TOPT), BLK)]
+    parts += [(pin(x, y, 1.0, -3.5, 0.5), BRASS) for x, y in ((0, 0), (5.08, 0), (12.7, 0), (-7.62, 20.32), (2.54, 20.32), (12.7, 20.32))]
+    cx, cy = 2.5, 9.965
+    parts += [(text("TRACO POWER", 2.6, cx, cy - 5.0, TOPT), WHITE),
+              (text("THL 40-4812WI", 3.0, cx, cy, TOPT), WHITE),
+              (text("18-75V  12V 3.35A", 1.8, cx, cy + 4.5, TOPT), WHITE),
+              (pin(-9.0, -1.8, 1.2, TOPT, TOPT + 0.06), WHITE)]
+    write("TRACO_THL40WI_AGD6.step", parts)
 
     # Generic SMD bodies for library footprints whose 3D model is absent in KiCad 10.0.6 (XY = F.Fab outline, height = typical, CHECK_DATASHEET)
     import json, os

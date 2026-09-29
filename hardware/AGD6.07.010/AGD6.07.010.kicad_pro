@@ -582,7 +582,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
+        "track_width": 1.0,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -740,6 +740,14 @@
       {
         "netclass": "PWR_12V",
         "pattern": "*/V12_HEAT"
+      },
+      {
+        "netclass": "PWR_12V",
+        "pattern": "+12VA"
+      },
+      {
+        "netclass": "PWR_LOW",
+        "pattern": "*/V12_ETH"
       }
     ]
   },
@@ -841,7 +849,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Обозначение"
+      "sort_field": "\u041e\u0431\u043e\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -880,7 +888,7 @@
     "top_level_sheets": [
       {
         "filename": "AGD6.07.010.kicad_sch",
-        "name": "Корневой лист",
+        "name": "\u041a\u043e\u0440\u043d\u0435\u0432\u043e\u0439 \u043b\u0438\u0441\u0442",
         "uuid": "db6dd56f-556c-4f31-b977-7abc508636cf"
       }
     ],
@@ -890,7 +898,7 @@
   "sheets": [
     [
       "db6dd56f-556c-4f31-b977-7abc508636cf",
-      "Корневой лист"
+      "\u041a\u043e\u0440\u043d\u0435\u0432\u043e\u0439 \u043b\u0438\u0441\u0442"
     ],
     [
       "7dc2d748-8128-4498-a533-984f803396b4",
