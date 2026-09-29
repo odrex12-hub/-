@@ -3068,7 +3068,7 @@
 		)
 		(uuid "2fcc361a-7d6e-4508-bcc0-0253a1d863b5")
 	)
-(text "DATA_REQUIRED: AI module, peak power and thermal solution"
+(text "ИИ-компьютер: RK3588 (DECISIONS D18). Питание 12 V до 5.5 A; охлаждение и пик — по datasheet платы"
 		(exclude_from_sim no)
 		(at 20 83 0)
 		(effects

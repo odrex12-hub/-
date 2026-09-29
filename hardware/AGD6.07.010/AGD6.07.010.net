@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/user/-/hardware/AGD6.07.010/AGD6.07.010.kicad_sch")
-		(date "2026-09-28T00:58:19")
+		(date "2026-09-29T02:34:58")
 		(tool "Eeschema 10.0.6")
 		(sheet
 			(number "1")
@@ -9101,7 +9101,7 @@
 		)
 		(comp
 			(ref "PS202")
-			(value "DATA_REQUIRED изолир. 48V->12V >=100W")
+			(value "TRACO TEP 75-4812WI")
 			(footprint "AGD6:DCDC_2x1in_PLACEHOLDER")
 			(description "DC/DC module, generic 6-pin pinout: CHECK_DATASHEET for pin numbers and footprint")
 			(fields
@@ -10226,7 +10226,7 @@
 		)
 		(comp
 			(ref "RS201")
-			(value "5m 1W")
+			(value "10m 1W")
 			(footprint "Resistor_SMD:R_2512_6332Metric")
 			(description "Resistor")
 			(fields
@@ -20246,7 +20246,7 @@
 		(net
 			(code "14")
 			(name "/AI_COMPUTE_INTERFACE/USB_DN")
-			(class "Default")
+			(class "USB_90R")
 			(node
 				(ref "J603")
 				(pin "A7")
@@ -20281,7 +20281,7 @@
 		(net
 			(code "15")
 			(name "/AI_COMPUTE_INTERFACE/USB_DP")
-			(class "Default")
+			(class "USB_90R")
 			(node
 				(ref "J603")
 				(pin "A6")
@@ -21105,7 +21105,7 @@
 		(net
 			(code "50")
 			(name "/ETHERNET/E1_RXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1001")
 				(pin "4")
@@ -21122,7 +21122,7 @@
 		(net
 			(code "51")
 			(name "/ETHERNET/E1_RXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1001")
 				(pin "3")
@@ -21139,7 +21139,7 @@
 		(net
 			(code "52")
 			(name "/ETHERNET/E1_TXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1001")
 				(pin "2")
@@ -21156,7 +21156,7 @@
 		(net
 			(code "53")
 			(name "/ETHERNET/E1_TXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1001")
 				(pin "1")
@@ -21173,7 +21173,7 @@
 		(net
 			(code "54")
 			(name "/ETHERNET/E2_RXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1002")
 				(pin "4")
@@ -21190,7 +21190,7 @@
 		(net
 			(code "55")
 			(name "/ETHERNET/E2_RXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1002")
 				(pin "3")
@@ -21207,7 +21207,7 @@
 		(net
 			(code "56")
 			(name "/ETHERNET/E2_TXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1002")
 				(pin "2")
@@ -21224,7 +21224,7 @@
 		(net
 			(code "57")
 			(name "/ETHERNET/E2_TXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1002")
 				(pin "1")
@@ -21241,7 +21241,7 @@
 		(net
 			(code "58")
 			(name "/ETHERNET/E3_RXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1003")
 				(pin "4")
@@ -21258,7 +21258,7 @@
 		(net
 			(code "59")
 			(name "/ETHERNET/E3_RXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1003")
 				(pin "3")
@@ -21275,7 +21275,7 @@
 		(net
 			(code "60")
 			(name "/ETHERNET/E3_TXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1003")
 				(pin "2")
@@ -21292,7 +21292,7 @@
 		(net
 			(code "61")
 			(name "/ETHERNET/E3_TXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1003")
 				(pin "1")
@@ -21309,7 +21309,7 @@
 		(net
 			(code "62")
 			(name "/ETHERNET/E4_RXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1004")
 				(pin "4")
@@ -21326,7 +21326,7 @@
 		(net
 			(code "63")
 			(name "/ETHERNET/E4_RXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1004")
 				(pin "3")
@@ -21343,7 +21343,7 @@
 		(net
 			(code "64")
 			(name "/ETHERNET/E4_TXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1004")
 				(pin "2")
@@ -21360,7 +21360,7 @@
 		(net
 			(code "65")
 			(name "/ETHERNET/E4_TXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1004")
 				(pin "1")
@@ -21377,7 +21377,7 @@
 		(net
 			(code "66")
 			(name "/ETHERNET/E5_RXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1005")
 				(pin "4")
@@ -21394,7 +21394,7 @@
 		(net
 			(code "67")
 			(name "/ETHERNET/E5_RXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1005")
 				(pin "3")
@@ -21411,7 +21411,7 @@
 		(net
 			(code "68")
 			(name "/ETHERNET/E5_TXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1005")
 				(pin "2")
@@ -21428,7 +21428,7 @@
 		(net
 			(code "69")
 			(name "/ETHERNET/E5_TXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1005")
 				(pin "1")
@@ -21445,7 +21445,7 @@
 		(net
 			(code "70")
 			(name "/ETHERNET/E6_RXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1006")
 				(pin "4")
@@ -21462,7 +21462,7 @@
 		(net
 			(code "71")
 			(name "/ETHERNET/E6_RXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1006")
 				(pin "3")
@@ -21479,7 +21479,7 @@
 		(net
 			(code "72")
 			(name "/ETHERNET/E6_TXN")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1006")
 				(pin "2")
@@ -21496,7 +21496,7 @@
 		(net
 			(code "73")
 			(name "/ETHERNET/E6_TXP")
-			(class "Default")
+			(class "ETH_100R")
 			(node
 				(ref "J1006")
 				(pin "1")
@@ -22551,7 +22551,7 @@
 		(net
 			(code "118")
 			(name "/LOAD_SWITCHES_12V/V12_MON")
-			(class "PWR_12V")
+			(class "Default")
 			(node
 				(ref "R805")
 				(pin "2")
@@ -23050,7 +23050,7 @@
 		(net
 			(code "142")
 			(name "/POWER_CONVERSION/V12_AI")
-			(class "PWR_AI,PWR_12V")
+			(class "PWR_AI")
 			(node
 				(ref "C214")
 				(pin "1")
@@ -23090,7 +23090,7 @@
 		(net
 			(code "143")
 			(name "/POWER_CONVERSION/V12_ALERT_N")
-			(class "PWR_12V")
+			(class "Default")
 			(node
 				(ref "R218")
 				(pin "2")

@@ -1615,7 +1615,7 @@
 				)
 			)
 		)
-		(property "Value" "DATA_REQUIRED изолир. 48V->12V >=100W"
+		(property "Value" "TRACO TEP 75-4812WI"
 			(at 0 14.2 0)
 			(layer "F.Fab")
 			(uuid "669bebf3-3219-44aa-a68b-ea45c2188e1e")
@@ -13180,7 +13180,7 @@
 				)
 			)
 		)
-		(property "Value" "5m 1W"
+		(property "Value" "10m 1W"
 			(at 0 2.63 0)
 			(layer "F.Fab")
 			(uuid "7ad6c21c-79fd-41da-892d-86b88986e612")
