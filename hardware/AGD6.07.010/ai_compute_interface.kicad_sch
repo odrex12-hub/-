@@ -3068,7 +3068,7 @@
 		)
 		(uuid "2fcc361a-7d6e-4508-bcc0-0253a1d863b5")
 	)
-(text "ИИ-компьютер: RK3588 (DECISIONS D18). Питание 12 V до 5.5 A; охлаждение и пик — по datasheet платы"
+(text "ИИ-компьютер: Firefly RK3588 (ROC-RK3588S-PC, DECISIONS D18). Питание 12 V от J202 кабелем XT30 -> DC 5.5x2.1; макс. 14.4 W"
 		(exclude_from_sim no)
 		(at 20 83 0)
 		(effects
